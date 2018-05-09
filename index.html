@@ -58,10 +58,7 @@
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
 <script type="text/javascript">
-    var domain = document.getElementById('domain').value;
-    console.log(domain);
-    document.getElementById('domain').value = 'http://google.com';
-    console.log(document.getElementById('domain').value);
+    document.getElementById('domain').value = window.location.href;
 </script>
 </body>
 </html>
